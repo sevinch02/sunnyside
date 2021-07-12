@@ -39,6 +39,9 @@ a{
     justify-content: space-around;
     padding: 40px 0;
 }
+.mobile-nav{
+    display: none;
+}
 .nav-link{
     margin-left: 40px;
     color:#fff;
@@ -130,13 +133,16 @@ h1{
   margin: 0 auto;
  
 }
+.services .row2{
+    flex-direction: row;
+}
 .services{
     margin: 0 auto;
 }
 .ser-text:hover{
     color: #FAD723;
 }
-.ser-text{
+.services-text{
     display: inline-block;
     width: 675px;
     height: 285px;
