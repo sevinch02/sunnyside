@@ -1,0 +1,44 @@
+@media(max-width: 1199px){
+  
+}
+@media(max-width: 991px){
+  .row{
+    display: flex;
+  }
+  .navigation .row{
+    justify-content: space-around;
+  }
+  .ser-text {
+    display: inline-block;
+    padding: 17px 64px 0px 58px;
+    width: none;
+  }
+  .servic-img{
+    width: 504px;
+  }
+    .servic-img img {
+      width: 495px;
+  }
+  .img-column .cherry {
+    width: 495.7px;
+    height: 400px;
+}
+.img-column .orange {
+  width: 494.7px;
+  height: 400px;
+}
+.img-text{
+  width: 473px;
+}
+.article img {
+  width: 247px;}
+}
+@media(max-width: 767px){
+    
+}
+@media(max-width:565px){
+
+}
+@media(max-width:480px){
+
+}
