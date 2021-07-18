@@ -139,9 +139,9 @@
     .client-img {
       margin-left: 112px;
     }
-  .article .row{
+  /*.article .row{
     flex-wrap: wrap;
-  }
+  }*/
   .article img {
     width: 50%;
 }

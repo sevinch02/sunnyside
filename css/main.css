@@ -133,6 +133,9 @@ h1{
   margin: 0 auto;
  
 }
+.services .row{
+  flex-direction: row;
+}
 .services .row2{
     flex-direction: row;
 }
@@ -141,12 +144,12 @@ h1{
 }
 .ser-text:hover{
     color: #FAD723;
+    
 }
-.services-text{
-    display: inline-block;
-    width: 675px;
+.servies-text{
+    width: 50%;
     height: 285px;
-    padding: 113px 60px 70px 60px;
+    /*padding: 113px 60px 70px 60px;*/
 }
 .servies-text h2{
     font-weight: 900;
@@ -175,21 +178,18 @@ h1{
     color: #24303E;
 }
 .servic-img img {
-    width: 673px;
-}
-.servic-img{
-    width: 669px;  
+    width: 553px;
 }
 
 /*======================================
    img
 ========================================*/
 .img-column .cherry{
-    width: 674.7px;
+    width: 556.7px;
     height: 400px;
 }
 .img-column .orange{
-    width: 674.7px;
+    width: 556.7px;
     height: 400px;
 }
 .img-column{
@@ -268,13 +268,18 @@ h1{
 /*==================================
       article
 ====================================*/
-.article img {
-    width: 347px; 
+.article  img {
+    width: 25%; 
     height: 400px;
 }
 .article{
     margin: 0;
-
+}
+.img-column .orange{
+    width: 556.7px;
+}
+.article .row{
+    flex-direction: row !important;
 }
 /*=========================================
        sunnyside
