@@ -1,7 +1,5 @@
-@media(max-width: 1199px){
-  
-}
-@media(max-width: 991px){
+
+@media(max-width:991px){
   .row{
     display: flex;
   }
@@ -116,9 +114,9 @@
   .services .row{
       flex-wrap: wrap-reverse;
   }
-  .client .row{
+  /*.client .row{
     flex-wrap:wrap ;
-  }
+  }*/
   .column3 {
     width: 51%;
     margin: 0 auto;
